@@ -1,0 +1,20 @@
+
+/*ELEMENT Selektor*/
+div{
+    background-color: beige;
+}
+
+/*id selektor */
+#header{
+    font-size: 2rem;
+}
+
+/* Klassenselektor */
+.subtitle{
+    color:blueviolet
+}
+
+
+#text p{
+    background-color: cadetblue;
+}
