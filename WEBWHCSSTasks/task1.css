@@ -1,0 +1,40 @@
+.container{
+    background-color: aqua;
+    position: relative;
+    width: 200px;
+    height: 400px;
+    padding: 40px;
+    margin: 40px;
+}
+
+.greenbox{
+    background-color: greenyellow;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom:0px;
+    right:0px;
+}
+
+.blackbox{
+    background-color: black;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: -45px;
+}
+
+.flexcontainer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.greenflexbox{
+    background-color: green;
+    width: 40px;
+    height: 20px;
+    margin: 5rem;
+}
