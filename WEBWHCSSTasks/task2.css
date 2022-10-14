@@ -1,0 +1,58 @@
+.greenbox{
+    background-color: green;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.blackbox{
+    background-color: black;
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.flexcontainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bluebox1{
+    background-color: blue;
+    position:relative;
+    height: 400px;
+    width: 400px;
+    -ms-flex-align: start;
+}
+
+.redbox1{
+    background-color: red;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0px;
+    right:0px;
+}
+
+.bluebox2{
+    background-color: blue;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    -ms-flex-align:stretch;
+}
+
+.redbox2{
+    background-color: red;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0px;
+    left:0px;
+}
