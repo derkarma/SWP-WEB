@@ -1,0 +1,37 @@
+.bigdiv{
+    background-color: darkred;
+    width: 900px;
+    
+}
+
+
+.flexcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkred;
+    width: 900px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.flexcontainer li{
+    display: inline-block;
+    margin: 4px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+li:hover{
+    color: lightcoral;
+}
+
+.orfdiv{
+    background-color: lightcoral;
+    
+    
+    
+}
