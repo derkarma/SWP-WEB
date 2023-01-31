@@ -29,11 +29,15 @@ function printTasks(){
 }
 
 function setIsDone(id){
-    alert("isdone:" + id)
-
+    todos.find(element=>{
+       if (element.id==id) {
+        return true;
+       }
+    })
+    todos.isDOne = !todos.isDone
+    console.log(todos)
 }
 
 printTasks();
-
 
 
