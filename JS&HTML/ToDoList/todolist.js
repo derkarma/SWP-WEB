@@ -38,6 +38,5 @@ function setIsDone(id){
     console.log(todos)
 }
 
-printTasks();
-
+printTasks(); 
 
