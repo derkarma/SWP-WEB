@@ -1,6 +1,22 @@
-function buttonChooseCurrency(){
-    let num1 = document.getElementById("Euro").value;
-    let num2 = document.getElementById("Dollar").value;
-    let num3 = document.getElementById("Pound").value
+function buttonDollar(){
+    let num1 = document.getElementById("input").value; 
 
+    let euroToDollar = num1 * 1.06;
+    
 }
+
+function buttonPound(){
+    let num1 = document.getElementById("input").value;
+
+    let euroToPound = num1 * 0.89;
+}
+
+function buttonSchilling(){
+    let num1 = document.getElementById("input").value;
+
+    let euroToSchilling = num1 * 13.76;
+}
+
+    
+
+
