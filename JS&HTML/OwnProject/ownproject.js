@@ -4,7 +4,7 @@ function buttonDollar(){
 
     let euroToDollar = num1 * 1.06;
     
-    document.getElementById("output").innerHTML = euroToDollar.toFixed(2) + " €";
+    document.getElementById("output").innerHTML = euroToDollar.toFixed(2) + "$";
 }
 
 function buttonPound(){

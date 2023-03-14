@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="ownproject.js" defer></script>
-    <link rel="stylesheet" href="ownproject.css">
+    <link rel="stylesheet" href="ownproject.css" />
     <title>Document</title>
+  </head>
 
-    </head>
-    
-        <h1 id="heading">Curreny Calculator</h1>
+  <body>
+    <div id="background"></div>
+    <h1 id="heading">Curreny Calculator</h1>
 
-        <body>
-            
-            <div class="divInput">
-                <p>Calculate the Currency from Euro to either Dollar, Pound or for the old austrian People to Schilling:     </p>
-                <input id="input" type="text">
-    
-                <button id="Dollar" onclick="buttonDollar()">$</button>
-                <button id="Pound" onclick="buttonPound()">£</button>
-                <button id="Schilling" onclick="buttonSchilling()">Schilling</button>
-            </div>
+    <div>
+      <p>
+        Calculate the Currency from Euro to either Dollar, Pound or for the old
+        austrian People to Schilling:
+      </p>
+      <div class="divInput">
+        <input id="input" type="text" placeholder="Your amount" />
 
-            <div id="output"></div>
+        <button id="Dollar" onclick="buttonDollar()">$</button>
+        <button id="Pound" onclick="buttonPound()">£</button>
+        <button id="Schilling" onclick="buttonSchilling()">Schilling</button>
+      </div>
 
-
-            
-
-        </body>
-
-
+      <div class="divOutput" id="output"></div>
+    </div>
+  </body>
 </html>
