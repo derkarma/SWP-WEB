@@ -1,19 +1,21 @@
-console.log("in");
-const loadData = ()=>{
-    fetch("https://www.openligadb.de/api/getbltable/bl1/2022").then((result)=>{
-        result.json().then((data)=>{
-            console.log(data);
-            fillTable(data)
+const loadData = () =>{
+    fetch("https://api.openligadb.de/getbltable/bl1/2022").then((result) =>{
+        result.json().then((data) => {
+            
+            fillTable(data);
         })
     })
 }
 
-const fillTable = (data)=>{
-    let output = [];
+const fillTable = (data) =>{
+
+    let html = "";
+
     data.forEach(element => {
-        output.push("<div>" + element.TeamName + "</div>")
+        html += `<div class"table"> <p class="points">${element.teamName}  ${element.points}</p></div>`;
     });
-    document.getElementById("output").innerHTML = output;
+    document.getElementById("output").innerHTML = html;
+
 }
 
 loadData();

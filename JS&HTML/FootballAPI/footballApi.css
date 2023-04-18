@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+
+#output{
+    text-align: center;
+    font-size: 15px;
+   
+
+}
+
+#border{
+    display: flex;
+    background: rgba(139, 189, 182, 0.2);
+    justify-content: center;
+}
