@@ -12,10 +12,18 @@ const fillTable = (data) =>{
     let html = "";
 
     data.forEach(element => {
-        html += `<div class"table"> <p class="points">${element.teamName}  ${element.points}</p></div>`;
+        html += `<div class"table"> <p class="points"> 
+                    <table border="2">
+                        <tr>
+                            <td> ${element.teamName}</td>
+                            <td> ${element.points}</td>
+                        </tr>
+                    </table>
+             </p></div>`;
     });
     document.getElementById("output").innerHTML = html;
 
 }
 
 loadData();
+

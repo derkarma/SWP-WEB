@@ -1,15 +1,31 @@
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 120px;
+    justify-content: end;
+}
+
 h1{
+    padding-right: 5%;
+    position: relative;
     text-align: center;
     color: black;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+#heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
 }
 
 #output{
     text-align: center;
     font-size: 15px;
-   
-
 }
 
 #border{
@@ -17,3 +33,9 @@ h1{
     background: rgba(139, 189, 182, 0.2);
     justify-content: center;
 }
+
+
+
+
+
+
