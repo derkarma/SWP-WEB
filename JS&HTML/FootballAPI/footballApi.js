@@ -13,8 +13,9 @@ const fillTable = (data) =>{
 
     data.forEach(element => {
         html += `<div class"table"> <p class="points"> 
-                    <table border="2">
+                    <table>
                         <tr>
+                            <td> 1 </td>
                             <td> ${element.teamName}</td>
                             <td> ${element.points}</td>
                         </tr>

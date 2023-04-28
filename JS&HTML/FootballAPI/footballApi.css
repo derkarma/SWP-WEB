@@ -23,16 +23,40 @@ h1{
     padding: 20px;
 }
 
-#output{
-    text-align: center;
-    font-size: 15px;
-}
+
 
 #border{
+    align-items: center;
     display: flex;
     background: rgba(139, 189, 182, 0.2);
     justify-content: center;
+    width: 400px;
+    border-radius: 20px;
 }
+
+th, td {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+
+ table{
+    width: 296.5px;
+ } 
+
+  body {background-color: #ddd; margin: 3rem;}
+
+#output {
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+
+}
+  
+
+
+
 
 
 
