@@ -1,3 +1,4 @@
+
 img{
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -26,11 +27,11 @@ h1{
 
 
 #border{
+    
     align-items: center;
     display: flex;
     background: rgba(139, 189, 182, 0.2);
     justify-content: center;
-    width: 400px;
     border-radius: 20px;
 }
 
@@ -38,6 +39,7 @@ th, td {
     border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
+    
   }
 
 
@@ -45,9 +47,13 @@ th, td {
     width: 296.5px;
  } 
 
-  body {background-color: #ddd; margin: 3rem;}
+body {
+    
+    background-color: #ddd; 
+}
 
 #output {
+
   text-align: center;
   font-size: 18px;
   position: relative;
